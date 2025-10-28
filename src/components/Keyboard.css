@@ -1,0 +1,18 @@
+.kbd-row {
+  display: flex;
+  gap: 6px;
+}
+.kbd-key {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+.kbd-key:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
